@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    font-family: 'Pangolin';
+}
+
+.map-area {
+    width: 70%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.map {
+    max-width: 90%;
+}
+
+.data {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.names {
+    font-size: 40pt;
+}
+
+.numbers {
+    font-size: 40pt;
+}
+
+.countries {
+    background-color: #e8eff9;
+}
+
+.marie-countries {
+    width: 50%;
+    float: left;
+}
+
+.ulad-countries {
+    width: 50%;
+    float: right;
+}
+
+.flag {
+    width: 20px;
+    vertical-align: bottom;
+}
