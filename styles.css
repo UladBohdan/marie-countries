@@ -1,48 +1,59 @@
 body {
-    background-color: white;
-    font-family: 'Pangolin';
+  font-family: "EB Garamond", serif;
 }
 
 .map-area {
-    width: 70%;
-    float: left;
-    text-align: center;
-    vertical-align: middle;
+  border-left: 1px dotted black;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 69%;
+}
+
+.subheader {
+  border-bottom: 1px solid black;
+  float: left;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  width: 95%;
 }
 
 .map {
-    max-width: 90%;
+  width: 95%;
+  margin-left: 0.5rem;
 }
 
 .data {
-    width: 30%;
-    float: right;
-    text-align: center;
+  float: left;
+  text-align: center;
+  width: 30%;
 }
 
 .names {
-    font-size: 40pt;
+  font-size: 4rem;
 }
 
 .numbers {
-    font-size: 40pt;
+  font-size: 4rem;
 }
 
 .countries {
-    background-color: #e8eff9;
+  background: #efefef;
+  font-size: 1.2rem;
 }
 
 .marie-countries {
-    width: 50%;
-    float: left;
+  float: left;
+  width: 50%;
 }
 
 .ulad-countries {
-    width: 50%;
-    float: right;
+  float: right;
+  width: 50%;
 }
 
 .flag {
-    width: 20px;
-    vertical-align: bottom;
+  vertical-align: bottom;
+  width: 20px;
 }

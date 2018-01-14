@@ -5,25 +5,18 @@
 	<meta charset="utf-8"/>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
-	<script src="https://code.highcharts.com/maps/modules/data.js"></script>
-	<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+	<script type="text/javascript" src="data.js"></script>
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 <body >
-<div class="map-area">
-	<br>
-	<br>
-	<div id="container" style="height: 500px; min-width: 310px; max-width: 1000px; margin: 0 auto"></div>
-	<script src="map.js"></script>
-</div>
 <div class="data">
 	<br>
 	<div class="names">Marie vs. Ulad</div>
 	<br>
-	<div class="numbers">18 vs. 20</div>
+	<div class="numbers">19 vs. 20</div>
 	<br>
 	<div class="countries">
 		<br>
@@ -48,7 +41,7 @@
 			Італія <img class="flag" src="flags-iso/IT.png"><br>
 			Данія <img class="flag" src="flags-iso/DK.png"><br>
 			Нарвегія <img class="flag" src="flags-iso/NO.png"><br>
-			<br>
+			Турэччына <img class="flag" src="flags-iso/TR.png"><br>
 			<br>
 			<br>
 		</div>
@@ -62,5 +55,19 @@
 		</div>
 	</div>
 </div>
+<div class="map-area">
+	<br>
+	<div class="subheader">Сусвет</div>
+	<div id="world_div" class="map"></div>
+
+	<div class="subheader">Эўропа</div>
+	<div id="europe_div" class="map"></div>
+
+	<div class="subheader">Злучаныя Штаты</div>
+	<div id="usa_div" class="map"></div>
+
+	<script src="map.js"></script>
+</div>
+</body>
 
 </html>
