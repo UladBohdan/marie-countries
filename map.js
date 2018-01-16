@@ -10,6 +10,7 @@ function drawMaps() {
   drawMap("Country", "world", "countries", "world_div");
   drawMap("Country", "150", "countries", "europe_div");
   drawMap("State", "US", "provinces", "usa_div");
+  drawMap("State", "RU", "provinces", "russia_div");
 }
 
 function drawMap(title, region, resolution, div_id) {

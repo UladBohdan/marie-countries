@@ -14,8 +14,11 @@ var countries = {
     "CH",
     "FR",
     "LI",
-    "SE"
+    "SE",
+    "RU-MOW",
+    "RU-SPE",
+    "RU-LEN"
   ],
-  ulad: ["GB", "PT", "US", "US-CA", "US-WA", "MX", "CU"],
-  marie: ["IT", "DK", "NO", "TR"]
+  ulad: ["GB", "PT", "US", "US-CA", "US-WA", "MX", "CU", "RU-KDA"],
+  marie: ["IT", "DK", "NO", "TR", "RU-KR"]
 };
