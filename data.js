@@ -18,8 +18,9 @@ var countries = {
     'RU-MOW',
     'RU-SPE',
     'RU-LEN',
-    'IR'
+    'Iran',
+    'Denmark'
   ],
-  ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA'],
-  marie: ['IT', 'DK', 'NO', 'TR', 'RU-KR']
+  ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'GE'],
+  marie: ['IT', 'NO', 'TR', 'RU-KR', 'Finland']
 };
