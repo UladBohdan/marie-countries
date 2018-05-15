@@ -22,5 +22,5 @@ var countries = {
     'Denmark'
   ],
   ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'GE'],
-  marie: ['IT', 'NO', 'TR', 'RU-KR', 'Finland']
+  marie: ['IT', 'NO', 'TR', 'RU-KR', 'Finland', 'RU-MUR', 'RU-PSK', 'RU-NGR']
 };
