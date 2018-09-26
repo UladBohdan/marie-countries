@@ -21,6 +21,6 @@ var countries = {
     'Iran',
     'Denmark'
   ],
-  ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'GE', 'US-NV', 'US-MA', 'US-NY', 'US-OR', 'Canada', 'CA-BC', 'US-HI'],
+  ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'GE', 'US-NV', 'US-MA', 'US-NY', 'US-OR', 'Canada', 'CA-BC', 'US-HI', 'CA-ON', 'CA-QC'],
   marie: ['IT', 'NO', 'TR', 'RU-KR', 'Finland', 'RU-MUR', 'RU-PSK', 'RU-NGR']
 };
