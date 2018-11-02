@@ -41,6 +41,7 @@ body {
 .countries {
   background: #efefef;
   font-size: 1.2rem;
+  overflow: hidden;
 }
 
 .marie-countries {
