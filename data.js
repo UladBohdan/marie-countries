@@ -3,9 +3,9 @@ var users = {
     displayNames: {
       en: 'Ulad',
     },
-    countries: ['BY', 'UA', 'PL', 'Germany', 'BG', 'CZ', 'LT', 'LV', 'EE',
-     'Moldova', 'CH', 'FR', 'LI', 'SE', 'RU-MOW', 'RU-SPE', 'RU-LEN', 'Iran',
-     'Denmark', 'GB', 'PT', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'GE',
+    countries: ['Belarus', 'Ukraine', 'Poland', 'Germany', 'Bulgaria', 'Czech Republic', 'Lithuania', 'Latvia', 'Estonia',
+     'Moldova, Republic of', 'Switzerland', 'France', 'Liechtenstein', 'Sweden', 'RU-MOW', 'RU-SPE', 'RU-LEN', 'Iran, Islamic Republic of',
+     'Denmark', 'United Kingdom', 'Portugal', 'US-CA', 'US-WA', 'Mexico', 'Cuba', 'RU-KDA', 'Georgia',
      'US-NV', 'US-MA', 'US-NY', 'US-OR', 'CA-BC', 'US-HI', 'CA-ON',
      'CA-QC', 'RU-MOS'],
   },
@@ -13,9 +13,9 @@ var users = {
     displayNames: {
       en: 'Marie',
     },
-    countries: ['BY', 'UA', 'PL', 'Germany', 'BG', 'CZ', 'LT', 'LV', 'EE',
-     'Moldova', 'CH', 'FR', 'LI', 'SE', 'RU-MOW', 'RU-SPE', 'RU-LEN', 'Iran',
-     'Denmark', 'IT', 'NO', 'TR', 'RU-KR', 'Finland', 'RU-MUR', 'RU-PSK',
+    countries: ['Belarus', 'Ukraine', 'Poland', 'Germany', 'Bulgaria', 'Czech Republic', 'Lithuania', 'Latvia', 'Estonia',
+     'Moldova, Republic of', 'Switzerland', 'France', 'Liechtenstein', 'Sweden', 'RU-MOW', 'RU-SPE', 'RU-LEN', 'Iran, Islamic Republic of',
+     'Denmark', 'Italy', 'Norway', 'Turkey', 'RU-KR', 'Finland', 'RU-MUR', 'RU-PSK',
      'RU-NGR'],
   },
 };

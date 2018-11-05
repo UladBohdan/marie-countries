@@ -66,7 +66,7 @@ function renderCounters() {
 
 function renderCountryList(id, countries) {
   for (var elem of countries) {
-    var country_html = elem + " <img class='flag' src='flags-iso/" + elem + ".png'><br>";
+    var country_html = elem + " <img class='flag' src='flags-iso/" + countryToCodeMap[elem] + ".png'><br>";
     document.getElementById(id).innerHTML += country_html;
   }
 }

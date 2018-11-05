@@ -1,6 +1,6 @@
 /*
-Intersection is not the most effective but it keeps the intersection
-in correct order.
+Intersection is not the most effective but it keeps the order of elements in `A`
+and `B`.
 */
 function intersection(A, B) {
     var intersection = [];
