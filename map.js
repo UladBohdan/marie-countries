@@ -66,7 +66,11 @@ function renderCounters() {
 
 function renderCountryList(id, countries) {
   for (var elem of countries) {
-    var country_html = elem + " <img class='flag' src='flags-iso/" + countryToCodeMap[elem] + ".png'><br>";
+    var country = getCountry(elem);
+    if (country.length != 2) {
+      country = countryToCodeMap[elem];
+    }
+    var country_html = elem + " <img class='flag' src='flags-iso/" + country + ".png'><br>";
     document.getElementById(id).innerHTML += country_html;
   }
 }
@@ -77,11 +81,14 @@ function renderCountryLists() {
   renderCountryList("unique_second", unique_second);
 }
 
+function getCountry(country_or_province) {
+  return country_or_province.split('-')[0]
+}
 
 function countCountries(countries) {
   var country_set = new Set();
   for (var country of countries) {
-    country_set.add(country.split('-')[0]);
+    country_set.add(getCountry(country));
   }
   return country_set.size;
 }
