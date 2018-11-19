@@ -23,3 +23,11 @@ function difference(A, B) {
   }
   return diff;
 }
+
+function reverseObject(obj) {
+  var reversed = {}
+  for (var key in obj) {
+    reversed[obj[key]] = key;
+  }
+  return reversed;
+}
