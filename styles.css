@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   float: right;
   width: 69%;
+  height: 100vh;
 }
 
 .subheader {

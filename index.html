@@ -4,14 +4,18 @@
 	<title>Трэкер краінаў</title>
 	<meta charset="utf-8"/>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
 
 	<script type="text/javascript" src="utils.js"></script>
 	<script type="text/javascript" src="countrymap.js"></script>
 	<script type="text/javascript" src="data.js"></script>
 
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
 </head>
 <body >
 <div class="data">
@@ -29,7 +33,10 @@
 		</div>
 	</div>
 </div>
-<div class="map-area">
+<div class="map-area" id="map">
+  <script src="map.js"></script>
+</div>
+<!-- <div class="map-area">
 	<br>
 	<div class="subheader">Сусвет</div>
 	<div id="world_div" class="map"></div>
@@ -47,7 +54,7 @@
 	<div id="canada_div" class="map"></div>
 
 	<script src="map.js"></script>
-</div>
+</div> -->
 </body>
 
 </html>
