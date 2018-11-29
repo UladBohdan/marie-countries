@@ -2,20 +2,15 @@ var common_data = intersection(users.ulad.countries, users.marie.countries);
 var unique_first = difference(users.ulad.countries, common_data);
 var unique_second = difference(users.marie.countries, common_data);
 
-// google.charts.load("current", {
-//   packages: ["geochart"]
-  // Note: you will need to get a mapsApiKey for your project.
-  // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-  // mapsApiKey: "AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"
-// });
-// google.charts.setOnLoadCallback(renderPage);
-
 mapboxgl.accessToken = 'pk.eyJ1IjoidWxhZGJvaGRhbiIsImEiOiJjam9kMDQ1NzYxOTYyM3FvanhpOXE1cDIzIn0.JiXb8lR9e53GqZz51PZdaQ';
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
     center: [-99.9, 41.5],
-    zoom: 2
+    zoom: 2,
+    minZoom: 2,
+    maxZoom: 4,
 });
 
 map.on('load', function() {
@@ -88,50 +83,6 @@ map.on('load', function() {
     renderCounters();
     renderCountryLists();
 });
-
-// function renderPage() {
-//   // drawMaps();
-//   renderNames();
-//   renderCounters();
-//   renderCountryLists();
-// }
-
-function drawMaps() {
-  drawMap("Country", "world", "countries", "world_div");
-  drawMap("Country", "150", "countries", "europe_div");
-  drawMap("State", "US", "provinces", "usa_div");
-  drawMap("State", "RU", "provinces", "russia_div");
-  drawMap("State", "CA", "provinces", "canada_div");
-}
-
-function drawMap(title, region, resolution, div_id) {
-  var data = google.visualization.arrayToDataTable(
-    [[title, "Visitor code"]].concat(
-      common_data.map(function(code) {
-        return [code, 0];
-      }),
-      unique_first.map(function(code) {
-        return [code, 1];
-      }),
-      unique_second.map(function(code) {
-        return [code, 2];
-      })
-    )
-  );
-
-  var options = {
-    colors: ["#cc3333", "#4eb3d3", "#fed976"],
-    legend: "none",
-    region: region,
-    resolution: resolution
-  };
-
-  var chart = new google.visualization.GeoChart(
-    document.getElementById(div_id)
-  );
-
-  chart.draw(data, options);
-}
 
 function renderNames() {
   var names_html = users.ulad.displayNames.en + ' vs. ' +  users.marie.displayNames.en;
