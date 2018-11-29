@@ -181,7 +181,7 @@ var countryToCodeMap = {
 'Qatar': 'QA',
 'Réunion': 'RE',
 'Romania': 'RO',
-'Russian Federation': 'RU',
+'Russia': 'RU',
 'Rwanda': 'RW',
 'Saint Barthélemy': 'BL',
 'Saint Helena, Ascension and Tristan da Cunha': 'SH',
@@ -249,3 +249,5 @@ var countryToCodeMap = {
 'Zambia': 'ZM',
 'Zimbabwe': 'ZW',
 }
+
+var codeToENMap = reverseObject(countryToCodeMap);

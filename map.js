@@ -95,12 +95,26 @@ function renderCounters() {
 }
 
 function renderCountryList(id, countries) {
+  var aggregated = {}
   for (var elem of countries) {
     var country = getCountry(elem);
-    if (country.length != 2) {
-      country = countryToCodeMap[elem];
+    if (!(country in aggregated)) {
+      aggregated[country] = [];
     }
-    var country_html = elem + " <img class='flag' src='flags-iso/" + country + ".png'><br>";
+    aggregated[country].push(getProvince(elem));
+  }
+  for (var elem in aggregated) {
+    var country_code = getCountryCode(elem);
+    var country_html = codeToENMap[country_code];
+    if (aggregated[elem].length > 1 || aggregated[elem][0] !== '') {
+      country_html += ': <small>';
+      for (province of aggregated[elem]) {
+        country_html += province + ', ';
+      }
+      country_html = country_html.slice(0, -2) + '</small>';
+    }
+    var flag_html = " <img class='flag' src='flags-iso/" + country_code + ".png'><br>";
+    country_html += flag_html
     document.getElementById(id).innerHTML += country_html;
   }
 }
@@ -112,7 +126,23 @@ function renderCountryLists() {
 }
 
 function getCountry(country_or_province) {
-  return country_or_province.split('-')[0]
+  return country_or_province.split('-')[0];
+}
+
+function getProvince(country_or_province) {
+  name_parts = country_or_province.split('-');
+  if (name_parts.length > 1) {
+    return name_parts[1];
+  }
+  return '';
+}
+
+function getCountryCode(country_or_province) {
+  var country = getCountry(country_or_province);
+  if (country.length != 2) {
+    country = countryToCodeMap[country_or_province];
+  }
+  return country;
 }
 
 function countCountries(countries) {
