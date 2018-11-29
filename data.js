@@ -7,7 +7,7 @@ var users = {
      'Moldova', 'Switzerland', 'France', 'Liechtenstein', 'Sweden', 'RU-MOW', 'RU-SPE', 'RU-LEN', 'Iran',
      'Denmark', 'England', 'Portugal', 'US-CA', 'US-WA', 'Mexico', 'Cuba', 'RU-KDA', 'Georgia',
      'US-NV', 'US-MA', 'US-NY', 'US-OR', 'CA-BC', 'US-HI', 'CA-ON',
-     'CA-QC', 'RU-MOS', 'RU-KGD'],
+     'CA-QC', 'RU-MOS', 'RU-KGD', 'Finland'],
   },
   marie: {
     displayNames: {
