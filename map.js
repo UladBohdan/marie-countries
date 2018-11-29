@@ -20,14 +20,14 @@ var map = new mapboxgl.Map({
 
 map.on('load', function() {
 
-    map.addSource('belarus', {
+    map.addSource('belarus', { // provinces
         type: 'vector',
         url: 'mapbox://uladbohdan.9w37et5v'
     });
 
-    map.addSource('belarus2', {
+    map.addSource('belarus2', { // countries
         type: 'vector',
-        url: 'mapbox://uladbohdan.axo35jf3'
+        url: 'mapbox://uladbohdan.88dx6uwr'
     });
 
     var all_regions = {};
@@ -78,7 +78,7 @@ map.on('load', function() {
         "id": "states-join2",
         "type": "fill",
         "source": "belarus2",
-        "source-layer": "ne_10m_admin_0_countries-1tntle",
+        "source-layer": "ne_10m_admin_0_map_units-1x8xkc",
         "paint": {
             "fill-color": all2
         }
