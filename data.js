@@ -24,6 +24,36 @@ var countries = {
     'TR',
     'GE',
   ],
-  ulad: ['GB', 'PT', 'US', 'US-CA', 'US-WA', 'MX', 'CU', 'RU-KDA', 'US-NV', 'US-MA', 'US-NY', 'US-OR', 'Canada', 'CA-BC', 'US-HI', 'CA-ON', 'CA-QC', 'RU-MOS', 'RU-KGD', 'RU-TA', 'CY'],
-  marie: ['IT', 'NO', 'RU-KR', 'RU-MUR', 'RU-PSK', 'RU-NGR']
+  ulad: [
+    'GB',
+    'PT',
+    'US',
+    'US-CA',
+    'US-WA',
+    'MX',
+    'CU',
+    'RU-KDA',
+    'US-NV',
+    'US-MA',
+    'US-NY',
+    'US-OR',
+    'Canada',
+    'CA-BC',
+    'US-HI',
+    'CA-ON',
+    'CA-QC',
+    'RU-MOS',
+    'RU-KGD',
+    'RU-TA',
+    'CY',
+    'SK'
+  ],
+  marie: [
+    'IT',
+    'NO',
+    'RU-KR',
+    'RU-MUR',
+    'RU-PSK',
+    'RU-NGR'
+  ]
 };
