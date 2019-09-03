@@ -23,6 +23,7 @@ var countries = {
     'Finland',
     'TR',
     'GE',
+    'IT',
   ],
   ulad: [
     'GB',
@@ -52,7 +53,6 @@ var countries = {
     'BE',
   ],
   marie: [
-    'IT',
     'NO',
     'RU-KR',
     'RU-MUR',
