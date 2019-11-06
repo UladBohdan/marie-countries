@@ -51,6 +51,7 @@ var countries = {
     'HR',
     'BA',
     'BE',
+    'GR',
   ],
   marie: [
     'NO',
