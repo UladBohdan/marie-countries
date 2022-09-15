@@ -24,10 +24,14 @@ var countries = {
     'TR',
     'GE',
     'IT',
+    'PT',
+    'SK',
+    'HR',
+    'BA',
+    'BE',
   ],
   ulad: [
     'GB',
-    'PT',
     'US',
     'US-CA',
     'US-WA',
@@ -47,10 +51,6 @@ var countries = {
     'RU-KGD',
     'RU-TA',
     'CY',
-    'SK',
-    'HR',
-    'BA',
-    'BE',
     'GR',
   ],
   marie: [
@@ -58,6 +58,8 @@ var countries = {
     'RU-KR',
     'RU-MUR',
     'RU-PSK',
-    'RU-NGR'
+    'RU-NGR',
+    'ES',
+    'HU',
   ]
 };
