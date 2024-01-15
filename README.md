@@ -1,3 +1,3 @@
-# Трэкер краінаў
+## Ulad vs. Maryia country lists
 
-Каб нам з Машай мерацца наведанымі краінамі было прасцей.
+Occasionally still getting updated.
