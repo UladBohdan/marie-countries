@@ -52,6 +52,8 @@ var countries = {
     'RU-KGD',
     'RU-TA',
     'CY',
+    'AT',
+    'SI',
   ],
   marie: [
     'NO',
