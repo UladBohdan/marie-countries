@@ -33,9 +33,9 @@ var countries = {
     'US',
     'US-MA',
     'US-NY',
+    'GB',
   ],
   ulad: [
-    'GB',
     'US-CA',
     'US-WA',
     'MX',
@@ -63,5 +63,9 @@ var countries = {
     'HU',
     'US-DC',
     'US-PA',
+    'US-ME',
+    'US-NH',
+    'MC',
+    'NL',
   ]
 };
