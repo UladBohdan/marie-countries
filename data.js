@@ -70,5 +70,6 @@ var countries = {
     'US-ME',
     'US-NH',
     'MC',
+    'AD',
   ]
 };
