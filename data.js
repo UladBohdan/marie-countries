@@ -34,6 +34,8 @@ var countries = {
     'US-MA',
     'US-NY',
     'GB',
+    'HU',
+    'NL',
   ],
   ulad: [
     'US-CA',
@@ -54,6 +56,7 @@ var countries = {
     'CY',
     'AT',
     'SI',
+    'LU',
   ],
   marie: [
     'NO',
@@ -62,12 +65,10 @@ var countries = {
     'RU-PSK',
     'RU-NGR',
     'ES',
-    'HU',
     'US-DC',
     'US-PA',
     'US-ME',
     'US-NH',
     'MC',
-    'NL',
   ]
 };
