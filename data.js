@@ -71,5 +71,6 @@ var countries = {
     'US-NH',
     'MC',
     'AD',
+    'MO',
   ]
 };
