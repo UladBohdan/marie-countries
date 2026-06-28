@@ -74,5 +74,7 @@ var countries = {
     'MO',
     'SC',
     'AE',
+    'KZ', 
+    'UZ' 
   ]
 };
